@@ -37,8 +37,7 @@ export class PersonListComponent {
 
   
   trackPerson(index: number, person: Person) {
-    console.log(person);
-    return person ? person.email : undefined;
+    return person ? person.email : undefined; // need a unique value 
   }
 
 }
